@@ -174,7 +174,7 @@
 
 
     
-       div.footer {
+    div.footer {
         background: black;
         border-top: whitesmoke solid 2px;
         border-bottom: whitesmoke solid 2px;
@@ -256,6 +256,8 @@ input.inputboxes {
     width: 500px;
 }
 }
+
+
 @media screen and (max-width: 414px) {
     header {
         top: 0;
@@ -270,7 +272,7 @@ input.inputboxes {
         height: auto;
         margin: 0;
         overflow: auto;
-        background-color: #fcf8e8;
+        background-color: black;
     }
 
     div#banner {
@@ -331,7 +333,7 @@ input.inputboxes {
 
 
     div.block {
-        background-color: #fcf8e8;
+        background-color: black;
         width: 414px;
         padding-top: 20px;
         height: auto;
@@ -423,7 +425,7 @@ input.inputboxes {
 /*--- Contact---*/
 
 div.input {
-    background-color: #fcf8e8;
+    background-color: black;
     width: 414px;
     padding-top: 4px;
     height: auto;
@@ -439,13 +441,13 @@ hr.line {
     margin-right: auto;
     border-style: inset;
     border-width: .5px;
-    border-color: #dfe2e5
+    border-color: black;
 }
 div.inputbox {
     position: relative;
     width: 100%;
     display: table;
-    color: #7b7e81;
+    color: black;
     margin-bottom: 1.5em;
 }
 input.inputboxes {
