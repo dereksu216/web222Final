@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> WEB222 Derek Su </title>
+    <meta charset="UTF-8" />
+    <link rel='stylesheet' href='styles.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <a href="index.html" id="logoLink">
+                <img id="logo" src="image\logo.jpg">
+            </a>      
+            <div class="navbar" id="navWrapper">
+            <nav>
+                <ul id="nav">
+                    <li><a href="index.html" class="b">Home</a></li>
+                    <li><a href="Albums.html" class="b">Albums</a></li>
+                    <li><a href="Apparel.html" class="b">Apparel</a></li>
+                    <li><a href="Special.html" class="b">Special</a></li>
+                    <li><a href="reflection.html" class="b">Reflection</a></li>
+                    <li><a href="contact.html" class="b">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    
+    <div class="title">
+        <p class="category">
+            CONTACT US
+        </p>
+        <hr class="Line">
+    </div>
+  <div class="input">
+    <form action="formspree.io/xwknzanr" method="post">
+    
+      <div class="inputbox">
+          <input class="inputboxes" pattern="^[A-Z][A-Za-z]*$" name="firstname" id="firstname"
+              type="text" placeholder="First Name: Jungkook" required>
+          <br>
+          <input class="inputboxes" pattern="^[A-Z][A-Za-z]*$" name="lastname" id="lastname"
+              type="text" placeholder="Last Name: Jeon" required>
+          <br>
+          <input class="inputboxes" id="email" name="email" type="email" placeholder="Email: btsfan1@gmail.com" required>
+          <br>
+          <input class="inputboxes" id="address" name="address"
+              type="text" placeholder="Address: 10 Finch Ave W" required>
+          <br>
+          <datalist id="city">
+              <option value="Toronto">
+              <option value="Brampton">
+              <option value="Missisauga">
+              <option value="Markham">
+              <option value="Richmod Hill">
+            </datalist> 
+
+          <input class="inputboxes" list="city" id="citys" name="citys" placeholder="City" required>
+          <br>
+
+          <input class="inputboxes"  name="postalcode"
+              id="postalcode" type="text" placeholder="Postal Code: L1H7M4" pattern="[a-zA-Z][0-9][a-zA-Z]\s?[0-9][a-zA-Z][0-9]" required>
+          <br>
+          <input class="inputboxes"  name="phonenumber"
+              id="phonenumber" type="text" placeholder="Phone Number: 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <br>
+
+      <hr class="line">
+
+      <label for="phoned">Would you like to be called?</label>
+      <input class="inpust"id="phoned" name="phoned" type="checkbox"><br>
+    
+        <ul>
+          <li><label for="question">Question</label>
+            <input id="question" name="Type" type="radio" required><br></li>
+          <li><label for="comment">Comment</label>
+            <input id="comment" name="Type" type="radio" required><br></li>
+          <li><label for="problem">Order Problem</label>
+            <input id="problem" name="Type" type="radio" required><br></li>
+        </ul>
+        <div id="choice" class="choice"></div>
+
+        <label for="msg">Message:</label> <br>
+        <textarea id="msg" name="msg" rows="10" type="text" required></textarea><br>
+
+        <input type="hidden" name="hidden" id="hidden" value="Joochan Kim" required> <br>
+        <input type="submit" value="Submit Information">
+
+      </div>
+  </div>
+      </form>
+<footer>
+      <div class="footer">
+        <form class= "subscribe" action="formspree.io/xwknzanr" method="POST">
+            <p class="footerstyle">Sign up for news letters</p>
+            Name: <input type="text" name="name"> <br>
+            Email:  <input type="email" name="email"><br>
+            <br><input type="submit" value="Subscribe" >
+            <p class="footerstyle">&copy; Derek Su</p>
+        </for>
+    </a>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,473 @@
+
+
+@media screen and (min-width:1000px) {
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        overflow: auto;
+        background-color:black;
+    }
+   
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    div#banner {
+        width: 100%;
+        line-height: 140px;
+        background-color:black;
+        position: fixed;
+        
+    }
+
+    img#logo {
+        width: 240px;
+        height: 125px;
+        padding-left: 200px;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    div.navbar {
+        position: relative;
+        overflow: hidden;
+        float: right;
+    }
+
+    nav ul {
+        padding-right: 240px;
+        padding-left: 0;
+        float: right;
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 5px;
+        display: inline;
+        font-size: 20pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a.b {
+        text-decoration: none;
+        list-style: none;
+        color: whitesmoke;
+    }
+
+    div.title  {
+        color: whitesmoke;
+        width: 1000px;
+        padding-top: 170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    hr.Line { 
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-width: .5px;
+        border-color: white;
+    }
+
+
+    div.block {
+        background-color: black;
+        width: 1050px;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+    }
+
+
+    p.category {
+        font-size: 20pt;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: white; 
+    }
+
+  
+    div.images {
+        width: 230px;
+        height: 500px;
+        margin: 0;
+        padding-right: 26px;
+        float: left;
+        position: relative;
+    }
+
+    div.widin {
+        width: 1030px;
+        
+    }
+
+    img {
+        min-width: 200px;
+        width: 250px;
+        height: 250px;
+    }
+
+  
+    div.Name {
+        width: 230px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    span.x {
+        height: auto;
+    }
+
+    p.Title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px;
+    }
+    p.description {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 12pt;
+        text-align: center;
+        margin: 0px;
+    }
+
+    p.reflection{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    a.Style {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+
+    p.price {
+        color: white;
+        text-align: center;
+        margin: 0px;
+    }
+
+    span.Price {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+    }
+
+
+
+    
+       div.footer {
+        background: black;
+        border-top: whitesmoke solid 2px;
+        border-bottom: whitesmoke solid 2px;
+        width: 100%;
+        min-width: 0;
+        bottom: 0;
+        margin: auto;
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+    footer{
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        padding: 20px;
+    }
+
+    p.footerstyle {
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        padding: 0;
+    }
+
+    div.subscribe {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        color: black;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+
+
+
+div.input {
+    background-color: black;
+    width: 1000px;
+    padding-top: 10px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+hr.line { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: .5px;
+    border-color: #dfe2e5
+}
+div.inputbox {
+    position: relative;
+    width: 100%;
+    display: table;
+    color: #7b7e81;
+    margin-bottom: 1.5em;
+}
+input.inputboxes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212224;
+    font-size: 12pt;
+    font-style: bold;
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+#msg {
+    margin: 0px; 
+    height: 100px; 
+    width: 500px;
+}
+}
+@media screen and (max-width: 414px) {
+    header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        overflow: auto;
+        background-color: #fcf8e8;
+    }
+
+    div#banner {
+        width: 414px;
+        line-height: 80px;
+        background-color:black;
+        position: relative;
+        
+    }
+
+    img#logo {
+        width: 120px;
+        height: 60px;
+        padding-left: 80px;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    div.navbar {
+
+        overflow: hidden;
+        float: right;
+    }
+
+    nav ul {
+        padding-right: 100px;
+        padding-left: 0;
+        float: right;
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 20px;
+        display: inline;
+        font-size: 20pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    div.title  {
+        width: 414px;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    hr.Line { 
+        display: block;
+        margin-top: 0;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-style: solid;
+        border-width: .5px;
+        border-color: black;
+    }
+
+
+    div.block {
+        background-color: #fcf8e8;
+        width: 414px;
+        padding-top: 20px;
+        height: auto;
+        margin: 20px;
+        overflow: hidden;
+        padding-bottom: 60px;
+    }
+
+ 
+    p.category {
+        font-size: 20pt;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /** Images **/
+    div.images {
+        width: 180px;
+        height: 400px;
+        margin-right: 20px;
+        float: left;
+        position: relative;
+    
+    }
+   
+
+    div.widin {
+        width: 100%;
+    }
+
+    img {
+
+        width: 170px;
+        height: 200px;
+    }
+
+    /** Product Title **/
+    div.Name {
+        width: 170px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    span.x {
+        height: auto;
+    }
+
+    p.Title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px;
+    }
+
+
+    /** Footer **/
+    div.footer {
+        background: whitesmoke;
+        width: 100%;
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+    footer{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 10px;
+    }
+
+    p.footerstyle {
+        font-family: Arial, Helvetica, sans-serif;
+        color: Black;
+        padding: 10px;
+    }
+
+    div.subscribe {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        color: black;
+    }
+
+/*--- Contact---*/
+
+div.input {
+    background-color: #fcf8e8;
+    width: 414px;
+    padding-top: 4px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+hr.line { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: .5px;
+    border-color: #dfe2e5
+}
+div.inputbox {
+    position: relative;
+    width: 100%;
+    display: table;
+    color: #7b7e81;
+    margin-bottom: 1.5em;
+}
+input.inputboxes {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12pt;
+    font-style: bold;
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+#msg {
+    margin: 0px; 
+    height: 100px; 
+    width: 500px;
+}
+}
+
