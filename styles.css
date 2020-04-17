@@ -207,54 +207,54 @@
         margin: 0;
     }
 
+/*--- Contact---*/
 
+    div.input {
+        background-color: black;
+        width: 1000px;
+        padding-top: 10px;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+    }
 
-div.input {
-    background-color: black;
-    width: 1000px;
-    padding-top: 10px;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-}
-
-hr.line { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: .5px;
-    border-color: #dfe2e5
-}
-div.inputbox {
-    position: relative;
-    width: 100%;
-    display: table;
-    color: #7b7e81;
-    margin-bottom: 1.5em;
-}
-input.inputboxes {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #212224;
-    font-size: 12pt;
-    font-style: bold;
-    width: 50%;
-    height: 50px;
-    padding: 12px 20px;
-    margin-bottom: 1.5em;
-    display: inline-block;
-    border: 1px solid grey;
-    border-radius: 5px;
-    box-sizing: border-box;
-    position: relative;
-}
-#msg {
-    margin: 0px; 
-    height: 100px; 
-    width: 500px;
-}
+    hr.line { 
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: .5px;
+        border-color: white
+    }
+    div.inputbox {
+        position: relative;
+        width: 100%;
+        display: table;
+        color: white;
+        margin-bottom: 1.5em;
+    }
+    input.inputboxes {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 12pt;
+        font-style: bold;
+        width: 50%;
+        height: 50px;
+        padding: 12px 20px;
+        margin-bottom: 1.5em;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    #msg {
+        margin: 0px; 
+        height: 100px; 
+        width: 500px;
+    }
 }
 
 
@@ -397,7 +397,7 @@ input.inputboxes {
 
     /** Footer **/
     div.footer {
-        background: whitesmoke;
+        background: black;
         width: 100%;
         float: left;
         text-align: center;
@@ -405,13 +405,13 @@ input.inputboxes {
     }
     footer{
         font-family: Arial, Helvetica, sans-serif;
-        color: white;
+        color:whitesmoke;
         padding: 10px;
     }
 
     p.footerstyle {
         font-family: Arial, Helvetica, sans-serif;
-        color: Black;
+        color: whitesmoke;
         padding: 10px;
     }
 
@@ -424,52 +424,51 @@ input.inputboxes {
 
 /*--- Contact---*/
 
-div.input {
-    background-color: black;
-    width: 414px;
-    padding-top: 4px;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-}
+    div.input {
+        background-color: black;
+        width: 414px;
+        padding-top: 4px;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+    }
 
-hr.line { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: .5px;
-    border-color: black;
-}
-div.inputbox {
-    position: relative;
-    width: 100%;
-    display: table;
-    color: black;
-    margin-bottom: 1.5em;
-}
-input.inputboxes {
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: White;
-    font-size: 12pt;
-    font-style: bold;
-    width: 50%;
-    height: 50px;
-    padding: 12px 20px;
-    margin-bottom: 1.5em;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-sizing: border-box;
-    position: relative;
-}
-#msg {
-    margin: 0px; 
-    height: 100px; 
-    width: 500px;
-}
+    hr.line { 
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: .5px;
+        border-color: whitesmoke;
+    }
+    div.inputbox {
+        position: relative;
+        width: 100%;
+        display: table;
+        color: white;
+        margin-bottom: 1.5em;
+    }
+    input.inputboxes {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 12pt;
+        font-style: bold;
+        width: 50%;
+        height: 50px;
+        padding: 12px 20px;
+        margin-bottom: 1.5em;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    #msg {
+        margin: 0px; 
+        height: 100px; 
+        width: 500px;
+    }
 }
 
